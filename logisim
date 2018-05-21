@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# A simple wrapper script for logisim
+
+cd $HOME
+
+java -jar /usr/share/java/logisim-2.3.1.jar
