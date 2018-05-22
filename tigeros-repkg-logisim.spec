@@ -23,10 +23,6 @@ draw bundles of wires with a single mouse drag, Logisim can be used
 (and is used) to design and simulate entire CPUs for educational
 purposes.
 
-%prep
-# Pull in remote sources
-spectool -g *spec
-
 %install
 # Install the jar to /usr/share/java
 %{__mkdir_p} %{buildroot}%{_datadir}/java/
