@@ -41,7 +41,6 @@ install -p -m 755 %{SOURCE2} %{buildroot}%{_prefix}/local/share/applications/
 install -p -m 755 %{SOURCE3} %{buildroot}%{_prefix}/local/share/icons/logisim.jpg
 
 %files
-%license LICENSE
 %{_prefix}/local/bin/logisim
 %{_prefix}/local/share/applications/logisim.desktop
 %{_prefix}/local/share/icons/logisim.jpg
